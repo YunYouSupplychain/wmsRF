@@ -1,5 +1,4 @@
 ext {
-
     android = [
                compileSdkVersion       : 28,
                buildToolsVersion       : "28.0.3",
@@ -105,6 +104,4 @@ ext {
                 "canary-release"           : "com.squareup.leakcanary:leakcanary-android-no-op:${version["canarySdkVersion"]}",
                 "umeng-analytics"          : "com.umeng.analytics:analytics:6.0.1"
         ]
-
-
 }
